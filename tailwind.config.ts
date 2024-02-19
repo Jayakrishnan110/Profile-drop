@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor: {
+        "card-expanded": "white", // Or your desired background color
+      },
+      height: {
+        "card-expanded": "200px", // Adjust as needed
+      },
+      overflow: {
+        "card-expanded": "hidden", // Hide overflowing content
+      },
     },
   },
   plugins: [],

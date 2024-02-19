@@ -1,0 +1,11 @@
+/* Transition for dropdown opacity */
+.dropdown {
+  transition: opacity 0.2s ease-in-out; /* Smoother opacity transition */
+  opacity: 0; /* Initially hidden */
+  overflow: hidden; /* Prevent list scrollbars on small screens */
+  max-height: 0; /* Collapse initially */
+}
+  
+  .card-expanded .dropdown {
+    opacity: 1; /* Visible when card is expanded */
+  }
